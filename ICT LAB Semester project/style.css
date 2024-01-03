@@ -1,0 +1,235 @@
+*{ font-family:'Josefin Sans', sans-serif;
+margin: 0%;
+color: white;
+padding:0%;
+}
+html,body{
+    scroll-behavior: smooth;
+}
+.firstpage{
+    background-image: url('firstpagewallpaper.jpg');
+    background-size: 100%;
+    height: 100vh;
+    width: auto;
+}
+.firstpage .nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.firstpage .nav h2 span{
+    color: #f9004d;
+}
+.firstpage .nav ul{
+ list-style: none;
+ display: flex;
+}
+.firstpage .nav ul li{
+   text-transform: uppercase;
+   padding: 1rem;
+   justify-content: space-evenly;
+   
+}
+.firstpage .nav ul li a{
+    text-decoration: none;
+}
+.firstpage .nav ul li a:hover{
+color: #f9004d;
+
+}
+.firstpage .newsletter{
+    margin-top: 30rem;
+justify-content: center;
+align-items: center;
+margin-left: 34rem;
+}
+.firstpage .newsletter #email{
+    color: solid white 100%;
+    background: #d9d9d97b;
+    border-radius: 30px;
+padding: 0.5rem 3.7rem 0.5rem 0.5rem ;
+border-style: none;
+}
+.firstpage .newsletter #subscribe{
+    color: black;
+    background: #f9004d;
+    border-radius: 30px;
+    color: #D9D9D9;
+    padding: 0.3rem ;
+    position: relative;
+    right: 10.3%;
+    border-style: none;
+}
+.firstpage .newsletter #subscribe:hover{
+    cursor: pointer;
+    background-color: #8b002c;
+}
+.images3{
+    background-color: #1b2631;
+    width: auto;
+    height: 70vh;
+    display: flex;
+justify-content: space-evenly;
+}
+.images3 img{
+padding: 3rem;
+}
+.images3text{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    gap: 17rem;
+    align-items: center;
+   text-align:center;
+   justify-content: center;
+   position: relative;
+   bottom: 5.5rem;
+}
+
+.thirdpage{
+    display: flex;
+    background-color: #424949;
+    width: auto;
+    height: 30vh;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 8rem;
+    text-align: center;
+
+}
+.thirdpage span{
+    color: #f9004d;
+    
+}
+.forthpage{
+    background-color: #000000e2;
+    width: auto;
+    height: 30vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+.forthpage p{
+    opacity:0.5 ;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: medium;
+}
+.forthpage span{
+    color: #f9004d;
+}
+.fifthpage{
+    display: flex;
+    justify-content: space-evenly;
+    width: auto;
+    height: 70vh;
+   background-color:#424949;
+}
+.fifth1{
+    padding: 3.5rem 0rem 3.5rem 0rem;
+}
+.fifth1 img{
+width: 364px;
+height:235px;
+padding-bottom: 1rem;
+}
+.fifth1 p{
+ font-size: small;
+    text-align: center;
+    width: 350px;
+    background-color: #000000e2;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    
+}
+.fifth2{
+    padding: 3.5rem 0rem 3.5rem 0rem;
+}
+.fifth2 img{
+    width: 250px;
+    height: 340px;
+    
+}
+.fifth3{
+    padding: 3.0rem 0rem 3.0rem 0rem;
+}
+.fifth3 img{
+    padding-bottom: 1rem;
+    width: 250px;
+    height:160px;
+}
+.fifth3{
+    padding-top: 3.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.fifth4{
+    padding-top: 3.5rem;
+}
+.fifth4 img{
+    width:200px;
+    height: 285px;
+}
+.fifth4 p{
+ font-size: x-small;
+    text-align: center;
+    width: 200px;
+    background-color: #000000e2;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.footer{
+    width: 100%;
+    height: 50vh;
+    background-image: url(new1.jpg);
+    background-size: 100%;
+    font-size: medium;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40px;
+}
+
+.footer .line1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+}
+.line1 span{
+    color: #f9004d;
+}
+.footer .line1 li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer .line1 li{
+    list-style: none;
+}
+
+.footer .line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer .line img{
+    width: 30px;
+    height: 30px;
+}
+#about{
+    font-size: 1.5rem;
+}
+#contact{
+    font-size: 1.5rem; 
+}

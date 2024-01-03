@@ -1,0 +1,34 @@
+body {
+    font-family:'Josefin Sans', sans-serif;
+    line-height: 1.6;
+    padding: 0%;
+    margin: 0%;
+}
+
+
+header {
+    background-color: #000000e2;
+    color: #f9004d;
+    text-align: center;
+    padding: 10px;
+}
+ h2 {
+    color:black;
+}
+.about-us, .services {
+    margin: 20px;
+}
+
+.services ul {
+    list-style-type: none;
+}
+
+footer {
+    background-color: #000000e2;
+    color: #f9004d;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
